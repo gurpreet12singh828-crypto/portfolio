@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurpreet Singh | Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">Gurpreet<span class="dot">.</span></h1>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact" class="btn-nav">Hire Me</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <p class="greeting">Hello, I am</p>
+                <h1>Gurpreet Singh</h1>
+                <h2>I analyze <span class="typing-text"></span></h2>
+                <p class="sub-text">B.Sc Student at Khalsa College, Amritsar. Expert in Python, SQL & Data Structures.</p>
+                <div class="buttons">
+                    <a href="#projects" class="btn-primary">View Work</a>
+                    <a href="assets/resume.pdf" download class="btn-secondary">Download CV <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+            <div class="hero-shape"></div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-heading">About Me</h2>
+            <div class="about-box">
+                <p>
+                    I am a data enthusiast currently pursuing B.Sc at <strong>Khalsa College, Amritsar</strong>. 
+                    Unlike traditional analysts, I combine strong knowledge of <strong>Data Structures (DSA)</strong> 
+                    with analytics tools like <strong>Power BI</strong> and <strong>SQL</strong> to build efficient, scalable solutions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-heading">Tech Stack</h2>
+            <div class="skills-wrapper">
+                
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Data Analysis & Automation</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>SQL</h3>
+                    <p>Complex Queries & Management</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>Data Structures</h3>
+                    <p>Algorithmic Problem Solving</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Power BI</h3>
+                    <p>Visual Dashboards & Reports</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-table"></i>
+                    <h3>Excel</h3>
+                    <p>Advanced Pivot & Macros</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-heading">My Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <div class="card-header">
+                        <i class="fas fa-folder-open"></i>
+                        <div class="links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Global Covid Dashboard</h3>
+                    <p>Created an interactive Power BI dashboard tracking active cases, recoveries, and vaccination rates globally.</p>
+                    <div class="tags">
+                        <span>Power BI</span>
+                        <span>Excel</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-header">
+                        <i class="fas fa-folder-open"></i>
+                        <div class="links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>E-Commerce Sales Analysis</h3>
+                    <p>Used SQL to query a 50,000 row dataset, identifying top-selling products and customer retention rates.</p>
+                    <div class="tags">
+                        <span>SQL</span>
+                        <span>Data Mining</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-header">
+                        <i class="fas fa-folder-open"></i>
+                        <div class="links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Stock Price Predictor</h3>
+                    <p>Implemented a Linear Regression model in Python to predict stock trends based on historical data.</p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>ML</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-darker">
+        <div class="container center-text">
+            <h2 class="section-heading">Get In Touch</h2>
+            <p>I am currently open for internships and freelance projects.</p>
+            <a href="mailto:gurpreet@example.com" class="btn-primary big-btn">Say Hello</a>
+            
+            <div class="socials">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Designed by Gurpreet Singh &copy; 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
