@@ -1,7 +1,3 @@
-// =========================
-// UPDATED script.js
-// =========================
-
 // MOBILE MENU
 
 const hamburger = document.querySelector(".hamburger");
@@ -10,18 +6,6 @@ const navLinks = document.querySelector(".nav-links");
 hamburger.addEventListener("click", () => {
 
     navLinks.classList.toggle("active");
-
-});
-
-// CLOSE MENU
-
-document.querySelectorAll(".nav-links a").forEach(link => {
-
-    link.addEventListener("click", () => {
-
-        navLinks.classList.remove("active");
-
-    });
 
 });
 
@@ -34,7 +18,6 @@ const words = [
     "AI Models.",
     "Data Insights.",
     "Machine Learning.",
-    "Modern Analytics.",
     "Future Technology."
 
 ];
@@ -86,22 +69,3 @@ function typeEffect(){
 }
 
 typeEffect();
-
-// SCROLL ANIMATION
-
-const observer = new IntersectionObserver((entries)=>{
-
-    entries.forEach((entry)=>{
-
-        if(entry.isIntersecting){
-
-            entry.target.classList.add("show");
-
-        }
-
-    });
-
-});
-
-document.querySelectorAll(".skill-card,.project-card,.about-box")
-.forEach((el)=>observer.observe(el));
